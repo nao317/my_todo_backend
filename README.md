@@ -20,7 +20,7 @@ docker logout
 ## ビルド
 
 ```bash
-docker build -t my-todo-backend
+docker build -t my-todo-backend .
 ```
 
 ## 実行

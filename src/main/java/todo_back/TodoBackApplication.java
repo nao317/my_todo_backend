@@ -11,7 +11,7 @@ public class TodoBackApplication {
 
 	@RequestMapping("/")
 	public String home() {
-		return "succeeded";
+		return "ok";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(TodoBackApplication.class, args);
