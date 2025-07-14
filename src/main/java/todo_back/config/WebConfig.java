@@ -11,7 +11,7 @@ public class WebConfig implements WebMvcConfigurer {
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
         .allowedOrigins("http://localhost:3000",
-        "https://my-todo-frontend-three.vercel.app/" /* 本番環境用 */
+        "https://my-todo-frontend-three.vercel.app" /* 本番環境用 */
         )
         .allowedMethods("GET", "POST", "PUT", "DELETE")
         .allowCredentials(true);
